@@ -1,0 +1,5 @@
+bazel_dep(name = "generator", dev_dependency = True)
+local_path_override(
+    module_name = "generator",
+    path = "../generator",
+)
